@@ -1,0 +1,37 @@
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Build / dist
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Evaluation generated artifacts (keep the directories, ignore outputs)
+evaluation/results/*
+!evaluation/results/.gitkeep
+evaluation/trajectories/*
+!evaluation/trajectories/.gitkeep
+
+# IDE
+.idea/
+.vscode/

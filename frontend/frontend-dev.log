@@ -1,0 +1,172 @@
+
+> opspilot-frontend@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 9.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 13.1s (460 modules)
+ GET / 307 in 13807ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 16.8s (537 modules)
+ ⨯ services\approvalService.ts (112:11) @ request
+ ⨯ Error: Internal Server Error
+    at request (./services/approvalService.ts:68:15)
+    at async ApiApprovalService.getApprovals (./services/approvalService.ts:74:22)
+    at async Promise.all (index 2)
+    at async DashboardPage (./app/dashboard/page.tsx:28:41)
+digest: "3814185799"
+[0m [90m 110 |[39m       [90m// ignore non-JSON error bodies[39m[0m
+[0m [90m 111 |[39m     }[0m
+[0m[31m[1m>[22m[39m[90m 112 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m(detail)[33m;[39m[0m
+[0m [90m     |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 113 |[39m   }[0m
+[0m [90m 114 |[39m   [36mreturn[39m res[33m.[39mjson() [36mas[39m [33mPromise[39m[33m<[39m[33mT[39m[33m>[39m[33m;[39m[0m
+[0m [90m 115 |[39m }[0m
+ ⨯ services\approvalService.ts (112:11) @ request
+ ⨯ Error: Internal Server Error
+    at request (./services/approvalService.ts:68:15)
+    at async ApiApprovalService.getApprovals (./services/approvalService.ts:74:22)
+    at async Promise.all (index 2)
+    at async DashboardPage (./app/dashboard/page.tsx:28:41)
+digest: "3814185799"
+[0m [90m 110 |[39m       [90m// ignore non-JSON error bodies[39m[0m
+[0m [90m 111 |[39m     }[0m
+[0m[31m[1m>[22m[39m[90m 112 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m(detail)[33m;[39m[0m
+[0m [90m     |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 113 |[39m   }[0m
+[0m [90m 114 |[39m   [36mreturn[39m res[33m.[39mjson() [36mas[39m [33mPromise[39m[33m<[39m[33mT[39m[33m>[39m[33m;[39m[0m
+[0m [90m 115 |[39m }[0m
+ GET /dashboard 500 in 17558ms
+ ⨯ services\approvalService.ts (112:11) @ request
+ ⨯ Error: Internal Server Error
+    at request (./services/approvalService.ts:68:15)
+    at async ApiApprovalService.getApprovals (./services/approvalService.ts:74:22)
+    at async Promise.all (index 2)
+    at async DashboardPage (./app/dashboard/page.tsx:28:41)
+digest: "3814185799"
+[0m [90m 110 |[39m       [90m// ignore non-JSON error bodies[39m[0m
+[0m [90m 111 |[39m     }[0m
+[0m[31m[1m>[22m[39m[90m 112 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m(detail)[33m;[39m[0m
+[0m [90m     |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 113 |[39m   }[0m
+[0m [90m 114 |[39m   [36mreturn[39m res[33m.[39mjson() [36mas[39m [33mPromise[39m[33m<[39m[33mT[39m[33m>[39m[33m;[39m[0m
+[0m [90m 115 |[39m }[0m
+ ⨯ services\approvalService.ts (112:11) @ request
+ ⨯ Error: Internal Server Error
+    at request (./services/approvalService.ts:68:15)
+    at async ApiApprovalService.getApprovals (./services/approvalService.ts:74:22)
+    at async Promise.all (index 2)
+    at async DashboardPage (./app/dashboard/page.tsx:28:41)
+digest: "3814185799"
+[0m [90m 110 |[39m       [90m// ignore non-JSON error bodies[39m[0m
+[0m [90m 111 |[39m     }[0m
+[0m[31m[1m>[22m[39m[90m 112 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m(detail)[33m;[39m[0m
+[0m [90m     |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 113 |[39m   }[0m
+[0m [90m 114 |[39m   [36mreturn[39m res[33m.[39mjson() [36mas[39m [33mPromise[39m[33m<[39m[33mT[39m[33m>[39m[33m;[39m[0m
+[0m [90m 115 |[39m }[0m
+ GET /dashboard 500 in 88ms
+ ○ Compiling /requests ...
+ ✓ Compiled /requests in 812ms (529 modules)
+ GET /requests 200 in 1294ms
+ ○ Compiling /requests/new ...
+ ✓ Compiled /requests/new in 1008ms (539 modules)
+ GET /requests/new 200 in 1321ms
+ ○ Compiling /runs ...
+ ✓ Compiled /runs in 763ms (541 modules)
+ GET /runs 200 in 1140ms
+ ○ Compiling /approvals ...
+ ✓ Compiled /approvals in 1391ms (550 modules)
+ ⨯ services\approvalService.ts (112:11) @ request
+ ⨯ Error: Internal Server Error
+    at request (./services/approvalService.ts:68:15)
+    at async ApiApprovalService.getApprovals (./services/approvalService.ts:74:22)
+    at async ApprovalsPage (./app/approvals/page.tsx:20:23)
+digest: "3839419631"
+[0m [90m 110 |[39m       [90m// ignore non-JSON error bodies[39m[0m
+[0m [90m 111 |[39m     }[0m
+[0m[31m[1m>[22m[39m[90m 112 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m(detail)[33m;[39m[0m
+[0m [90m     |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 113 |[39m   }[0m
+[0m [90m 114 |[39m   [36mreturn[39m res[33m.[39mjson() [36mas[39m [33mPromise[39m[33m<[39m[33mT[39m[33m>[39m[33m;[39m[0m
+[0m [90m 115 |[39m }[0m
+ ⨯ services\approvalService.ts (112:11) @ request
+ ⨯ Error: Internal Server Error
+    at request (./services/approvalService.ts:68:15)
+    at async ApiApprovalService.getApprovals (./services/approvalService.ts:74:22)
+    at async ApprovalsPage (./app/approvals/page.tsx:20:23)
+digest: "3839419631"
+[0m [90m 110 |[39m       [90m// ignore non-JSON error bodies[39m[0m
+[0m [90m 111 |[39m     }[0m
+[0m[31m[1m>[22m[39m[90m 112 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m(detail)[33m;[39m[0m
+[0m [90m     |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 113 |[39m   }[0m
+[0m [90m 114 |[39m   [36mreturn[39m res[33m.[39mjson() [36mas[39m [33mPromise[39m[33m<[39m[33mT[39m[33m>[39m[33m;[39m[0m
+[0m [90m 115 |[39m }[0m
+ GET /approvals 500 in 1657ms
+ ○ Compiling /evaluation ...
+ ✓ Compiled /evaluation in 754ms (553 modules)
+ GET /evaluation 200 in 1172ms
+ ⨯ services\approvalService.ts (112:11) @ request
+ ⨯ Error: Internal Server Error
+    at request (./services/approvalService.ts:68:15)
+    at async ApiApprovalService.getApprovals (./services/approvalService.ts:74:22)
+    at async Promise.all (index 2)
+    at async DashboardPage (./app/dashboard/page.tsx:28:41)
+digest: "3814185799"
+[0m [90m 110 |[39m       [90m// ignore non-JSON error bodies[39m[0m
+[0m [90m 111 |[39m     }[0m
+[0m[31m[1m>[22m[39m[90m 112 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m(detail)[33m;[39m[0m
+[0m [90m     |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 113 |[39m   }[0m
+[0m [90m 114 |[39m   [36mreturn[39m res[33m.[39mjson() [36mas[39m [33mPromise[39m[33m<[39m[33mT[39m[33m>[39m[33m;[39m[0m
+[0m [90m 115 |[39m }[0m
+ ⨯ services\approvalService.ts (112:11) @ request
+ ⨯ Error: Internal Server Error
+    at request (./services/approvalService.ts:68:15)
+    at async ApiApprovalService.getApprovals (./services/approvalService.ts:74:22)
+    at async Promise.all (index 2)
+    at async DashboardPage (./app/dashboard/page.tsx:28:41)
+digest: "3814185799"
+[0m [90m 110 |[39m       [90m// ignore non-JSON error bodies[39m[0m
+[0m [90m 111 |[39m     }[0m
+[0m[31m[1m>[22m[39m[90m 112 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m(detail)[33m;[39m[0m
+[0m [90m     |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 113 |[39m   }[0m
+[0m [90m 114 |[39m   [36mreturn[39m res[33m.[39mjson() [36mas[39m [33mPromise[39m[33m<[39m[33mT[39m[33m>[39m[33m;[39m[0m
+[0m [90m 115 |[39m }[0m
+ GET /dashboard 500 in 182ms
+ ⨯ services\approvalService.ts (112:11) @ request
+ ⨯ Error: Internal Server Error
+    at request (./services/approvalService.ts:68:15)
+    at async ApiApprovalService.getApprovals (./services/approvalService.ts:74:22)
+    at async ApprovalsPage (./app/approvals/page.tsx:20:23)
+digest: "3839419631"
+[0m [90m 110 |[39m       [90m// ignore non-JSON error bodies[39m[0m
+[0m [90m 111 |[39m     }[0m
+[0m[31m[1m>[22m[39m[90m 112 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m(detail)[33m;[39m[0m
+[0m [90m     |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 113 |[39m   }[0m
+[0m [90m 114 |[39m   [36mreturn[39m res[33m.[39mjson() [36mas[39m [33mPromise[39m[33m<[39m[33mT[39m[33m>[39m[33m;[39m[0m
+[0m [90m 115 |[39m }[0m
+ ⨯ services\approvalService.ts (112:11) @ request
+ ⨯ Error: Internal Server Error
+    at request (./services/approvalService.ts:68:15)
+    at async ApiApprovalService.getApprovals (./services/approvalService.ts:74:22)
+    at async ApprovalsPage (./app/approvals/page.tsx:20:23)
+digest: "3839419631"
+[0m [90m 110 |[39m       [90m// ignore non-JSON error bodies[39m[0m
+[0m [90m 111 |[39m     }[0m
+[0m[31m[1m>[22m[39m[90m 112 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m(detail)[33m;[39m[0m
+[0m [90m     |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 113 |[39m   }[0m
+[0m [90m 114 |[39m   [36mreturn[39m res[33m.[39mjson() [36mas[39m [33mPromise[39m[33m<[39m[33mT[39m[33m>[39m[33m;[39m[0m
+[0m [90m 115 |[39m }[0m
+ GET /approvals 500 in 122ms
+ ✓ Compiled in 2.5s (276 modules)
+ ✓ Compiled in 1352ms (276 modules)

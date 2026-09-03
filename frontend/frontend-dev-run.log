@@ -1,0 +1,62 @@
+
+> opspilot-frontend@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 6s
+ ○ Compiling / ...
+ ✓ Compiled / in 6.9s (460 modules)
+ GET / 307 in 7254ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.9s (537 modules)
+ GET /dashboard 200 in 3340ms
+ ✓ Compiled /requests in 467ms (529 modules)
+ GET /requests 200 in 1001ms
+ ○ Compiling /runs ...
+ ✓ Compiled /runs in 552ms (531 modules)
+ GET /runs 200 in 1015ms
+ ○ Compiling /approvals ...
+ ✓ Compiled /approvals in 616ms (542 modules)
+ GET /approvals 200 in 748ms
+ ✓ Compiled /evaluation in 420ms (545 modules)
+ GET /evaluation 200 in 536ms
+ ✓ Compiled /requests/new in 524ms (553 modules)
+ GET /requests/new 200 in 689ms
+ GET /dashboard 200 in 328ms
+ GET /approvals 200 in 64ms
+ GET /runs 200 in 312ms
+ GET /approvals 200 in 64ms
+ GET /dashboard 200 in 276ms
+ ✓ Compiled in 1801ms (276 modules)
+ ✓ Compiled /dashboard in 263ms (262 modules)
+ GET /dashboard 200 in 801ms
+ ○ Compiling /approvals ...
+ ✓ Compiled /approvals in 711ms (268 modules)
+ GET /approvals 200 in 1107ms
+ ✓ Compiled / in 195ms (276 modules)
+ GET / 307 in 679ms
+ GET /dashboard 200 in 318ms
+ ○ Compiling /requests ...
+ ✓ Compiled /requests in 817ms (281 modules)
+ GET /requests 200 in 1298ms
+ ✓ Compiled /runs in 226ms (283 modules)
+ GET /runs 200 in 597ms
+ GET /approvals 200 in 290ms
+ ✓ Compiled /evaluation in 450ms (286 modules)
+ GET /evaluation 200 in 675ms
+ ✓ Compiled /requests/new in 360ms (291 modules)
+ GET /requests/new 200 in 524ms
+ GET /dashboard 200 in 266ms
+ GET /evaluation 200 in 62ms
+ GET / 307 in 351ms
+ GET /dashboard 200 in 334ms
+ GET /dashboard 200 in 266ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2s (556 modules)
+ GET /evidence 404 in 213ms
+ GET /approvals 200 in 828ms
+ GET /evidence 404 in 57ms
+ GET /approvals 200 in 296ms
